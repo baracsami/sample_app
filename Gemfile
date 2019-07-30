@@ -7,6 +7,8 @@ gem 'bootstrap-sass', '3.4.1'
 gem 'rails', '~> 5.2.3'
 gem 'bcrypt', '3.1.12'
 gem 'faker', :git => 'https://github.com/stympy/faker.git', :branch => 'master'
+gem 'carrierwave',             '1.2.2'
+gem 'mini_magick',             '4.7.0'
 gem 'will_paginate'
 gem 'bootstrap-will_paginate'
 # Use sqlite3 as the database for Active Record
@@ -56,6 +58,7 @@ group :development do
 end
 group :production do
   gem 'pg', '0.20.0'
+  gem 'fog', '1.42'
 end
 group :test do
   # Adds support for Capybara system testing and selenium driver
