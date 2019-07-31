@@ -8,7 +8,7 @@ gem 'rails', '~> 5.2.3'
 gem 'bcrypt', '3.1.12'
 gem 'faker', :git => 'https://github.com/stympy/faker.git', :branch => 'master'
 gem 'carrierwave',             '1.2.2'
-gem 'mini_magick',             '4.7.0'
+gem 'mini_magick',             '>= 4.9.4'
 gem 'will_paginate'
 gem 'bootstrap-will_paginate'
 # Use sqlite3 as the database for Active Record
