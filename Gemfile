@@ -12,7 +12,6 @@ gem 'mini_magick',             '>= 4.9.4'
 gem 'will_paginate'
 gem 'bootstrap-will_paginate'
 gem 'fog-aws'
-gem 'aws-sdk-s3'
 # Use sqlite3 as the database for Active Record
 gem 'jquery-rails'
 # Use Puma as the app server
